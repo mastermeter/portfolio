@@ -1,0 +1,30 @@
+site_name: Duc Jeremy | Portfolio
+site_url: https://github.com/jijiduc/portfolio/
+repo_url: https://github.com/Toys-R-Us-Rex/Duckify
+repo_name: Duckify
+
+theme:
+  name: material
+  language: en
+  palette: 
+    scheme: default 
+    primary: white
+    accent: deep purple
+  features:
+    - navigation.tabs        
+    - navigation.tabs.sticky 
+    - navigation.sections   
+    - navigation.top       
+    - toc.follow             
+    - header.autohide
+  font:
+    text: Merriweather  
+    code: Roboto Mono   
+  favicon: assets/jd.jpg
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - "Week 1": journal/week1.md
