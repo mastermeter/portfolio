@@ -1,6 +1,6 @@
-# Engineering Portfolio - Duc Jeremy
+# Engineering Portfolio - Alexandre Venturi
 
-![CI/CD Status](https://github.com/jijiduc/portfolio/actions/workflows/ci.yml/badge.svg)
+![CI/CD Status](https://github.com/mastermeter/portfolio/actions/workflows/ci.yml/badge.svg)
 ![MkDocs](https://img.shields.io/badge/built%20with-MkDocs-green)
 
 Source code for my personal portfolio.
