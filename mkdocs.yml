@@ -19,8 +19,7 @@ theme:
     - header.autohide
   font:
     text: Merriweather  
-    code: Roboto Mono   
-  favicon: assets/jd.jpg
+    code: Roboto Mono
 
 extra_css:
   - stylesheets/extra.css
@@ -28,3 +27,4 @@ extra_css:
 nav:
   - Home: index.md
   - "Week 1": journal/week1.md
+  - "Week 2": journal/week2.md
