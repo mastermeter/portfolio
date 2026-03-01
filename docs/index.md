@@ -1,3 +1,3 @@
-Welcome !
+# Welcome page
 
-This portfolio documents my work within the **Duckify** startup simulation during the **304 Major Track** module.
+This Github page contains contains my porfolio and my daily journal concerning my contribution in the course 304.1 Gen AI and Robot Control.

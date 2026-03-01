@@ -62,5 +62,8 @@ This day was mainly focused on gathering information about the setup and the amp
 
 ## 20.02.2026
 
-The last day of the week we had a weekly meeting with our CTO and product owner to talk about the milestones done during the week and the objectives planned for the next week as seen in the [weekly planning document](https://github.com/Toys-R-Us-Rex/Duckify/blob/main/docs/meetings/weekly/2026-02-20.typ)
+The last day of the week we had a weekly meeting with our CTO and product owner to talk about the milestones done during the week and the objectives planned for the next week as seen in the [weekly planning document](https://github.com/Toys-R-Us-Rex/Duckify/blob/main/docs/meetings/weekly/2026-02-20.typ).
 
+The next special event was to go to a shop to choose what kind of tool we could use for coloring our duck. We decided to take an "acrylic" pen. This choice will let me start to design a specific pen support for it and will let the robot team gather more information for robot space.
+
+After that, I kept going on what I have done during the week.
