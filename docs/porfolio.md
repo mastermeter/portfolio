@@ -1,11 +1,33 @@
 # Portfolio
 
-My objective for the project for now is to design and print 3D pieces to organise effeciently our tools and product. My whole time was spent on Inventor designing these pieces :
+The portfolio has the objective to show what are our contribution to the project and why our chief should "keep" us. It will be structured around differents points :
 
-- Guide for [3D printer usage](https://github.com/Toys-R-Us-Rex/Duckify/commit/1c0e737268ec25757b5ae182a80c1e7aa0a9c6c6)
-- [Support for duck](https://github.com/Toys-R-Us-Rex/Duckify/commit/b0e30719beff070b21331087e49fd69d1de168e8) (sketch)
-- Pen related [pieces](https://github.com/Toys-R-Us-Rex/Duckify/commit/7aee82fd02d751a778e9e48157983562d8bab257)
-- [Slope piece](https://github.com/Toys-R-Us-Rex/Duckify/commit/99d94a4e07718d70484d219bf683ba410575c68d) related doc for test purpose 
+- Computer science engineer
+    - Analyse a complexe informatic problem
+    - Design a theoretical, modeled solution
+    - Implementing a modeled theoretical approach
+    - Evaluate an informatic system
+    
+- Data engineer
+    - Leveraging heterogeneous and multimodal datasets
+    - Orchestrating a process and a data processing infrastructure
+    - Applying computer engineering skills to the data domain
+
+-  Professionalism (soft skills)
+    - Communicate clearly and efficiently
+    - Adopting a professional and facilitative approach to the situations encountered
+    - To argue one's opinions and choices during decision-making and strategic processes
+    - To critique the process of a production in a self-reflective manner
+
+For each point, Additionnal content will be add during the project concerning my contributions.
+
+## Computer science engineer
+
+## Data engineer
+
+## Professionalism
+
+During my 
 
 ## Questions
 
@@ -38,3 +60,17 @@ Q2
 Q3
 > How do you deal with the tasks you planned to do and the asks of your team ? Do you have time to deal with both ?
 > Of course it depends on the needs but I manage to complete the most of the tasks (except some validation point) even when my team asked me specific productions that weren't planned.
+
+### Week 3
+
+Q1
+>
+>
+
+Q2
+>
+>
+
+Q3
+>
+>
