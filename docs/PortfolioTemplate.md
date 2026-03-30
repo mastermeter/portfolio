@@ -3,31 +3,35 @@
 The portfolio has the objective to show what are our contribution to the project and why our chief should "keep" us. It will be structured around differents points :
 
 - Computer science engineer
-    - Analyse a complexe informatic problem
-    - Design a theoretical, modeled solution
-    - Implementing a modeled theoretical approach
-    - Evaluate an informatic system
-    
-- Data engineer
-    - Leveraging heterogeneous and multimodal datasets
-    - Orchestrating a process and a data processing infrastructure
-    - Applying computer engineering skills to the data domain
+  - Analyse a complexe informatic problem
+  - Design a theoretical, modeled solution
+  - Implementing a modeled theoretical approach
+  - Evaluate an informatic system
 
--  Professionalism (soft skills)
-    - Communicate clearly and efficiently
-    - Adopting a professional and facilitative approach to the situations encountered
-    - To argue one's opinions and choices during decision-making and strategic processes
-    - To critique the process of a production in a self-reflective manner
+- Data engineer
+  - Leveraging heterogeneous and multimodal datasets
+  - Orchestrating a process and a data processing infrastructure
+  - Applying computer engineering skills to the data domain
+
+- Professionalism (soft skills)
+  - Communicate clearly and efficiently
+  - Adopting a professional and facilitative approach to the situations encountered
+  - To argue one's opinions and choices during decision-making and strategic processes
+  - To critique the process of a production in a self-reflective manner
 
 For each point, Additionnal content will be add during the project concerning my contributions.
 
 ## Analyser un problème informatique complexe
 
+After discussion with an expert (Ms Richard) I provide a [new design of wood supports](https://github.com/Toys-R-Us-Rex/Duckify/commit/1009e153e927d299d40bac70b55392cf1c785faa) because the precision required for 3d printed element to fit with other pieces can't be really determined in advance because of the potential printing error that could occur. Theses new wood support doesn't have hole for pieces but have hole for pins that will make the link between wood support and printed support.
+
+Because of the capacity of the wood-cutting laser machine to provide limited size, the [new design of wood support](https://github.com/Toys-R-Us-Rex/Duckify/commit/1009e153e927d299d40bac70b55392cf1c785faa)
+
+During our tests we discover that the pen support I printed had some friction issue with the pen and sometimes the support move with the pen. I tried two differents fixed : the first was to reduce the surface of contact with the pen but it happened that it was not a good idea because by removing this surface we remove the rigidity of the support and it can more block the pen. The second was to remove the slope and to only use horizontal and vertical shape. Every document relative to this issue are in this PR : [Fix of friction](https://github.com/Toys-R-Us-Rex/Duckify/pull/75)
+
+A problem appeared for the tracing team and robot team concerning the axis and orientation of model I give. I haven't personnaly taken care of this point because I couldn't imagine the orientaion of the design I did could have any importance. I was wrong and after discussions with the concerned group I provide [oriented pieces](https://github.com/Toys-R-Us-Rex/Duckify/commit/02be7384ea0f5d1c3b25ee3d7182638ddd4411b0) with the choosen orientation for the duck and the [duck support](https://github.com/Toys-R-Us-Rex/Duckify/commit/60b868903d585489b0eca09b0ea36b5205b98de7)
+
 ## Concevoir une solution théorique modélisée
-
-My first three weeks of this project get my focus of every point concerning 3D modeling. It could be considered not as *computer science* engineer and I unerstand the point but the reflexion around my production has some similarities.
-
-I decided to take this role because I have experiences on 3D modeling and so I can spare time discovering applications.
 
 My first productions that can be found here [Support Sketch](https://github.com/Toys-R-Us-Rex/Duckify/commit/b0e30719beff070b21331087e49fd69d1de168e8). The objectives of these sketches were :
 
@@ -35,28 +39,19 @@ My first productions that can be found here [Support Sketch](https://github.com/
 - To show to the team how I would imagine a duck support in the concept.
 - Create some complexe shape in the sence they require some deeper knowledge to design them.
 
-The next step is to design the pen-related pieces. It involves a substitution of a classic pen in two formats because at this points we choosed two different models of pen. Theses substitutions have the purpose to replace pen to avoid some critical incident. The next design is a support for pen, its objective is to provide a stable and viable piece so the pen can have a fixed position.
+I design a first version of pen support  [Pen-related model](https://github.com/Toys-R-Us-Rex/Duckify/commit/343e6cbbd831bb5ca98af4b043ff2c8a33d482d6)
 
-The commit that added the files and their structure is here : [Pen-related model](https://github.com/Toys-R-Us-Rex/Duckify/commit/343e6cbbd831bb5ca98af4b043ff2c8a33d482d6)
+I produce for the robot team [a test slope](https://github.com/Toys-R-Us-Rex/Duckify/commit/99d94a4e07718d70484d219bf683ba410575c68d) to provide a shape that is not a plate but not rounded to give a medium difficulty challenge.
 
-In parallel of my common thread. My team asked me to produce some specific piece for test purpose. The idea was to print a piece with differente slopes and orientation for testing drawing on these slopes. As a basic shape, I produced a sort of truncated pyramid with non-uniform side. All the related documentation were provided in [The test slope](https://github.com/Toys-R-Us-Rex/Duckify/commit/99d94a4e07718d70484d219bf683ba410575c68d).
+I design a  [metal plate](https://github.com/Toys-R-Us-Rex/Duckify/commit/60afaa97607ae36a96b1a6e3f52b57007e52b891) that represent the large plate under the robot for presentation purpose and to help my teammate to visualize easily how my pieces assemble together
 
-For presentation purpose, I took the initiative to reproduce the environment of the robot in an assembly in Inventor. It also has the objective to discuss with the team about the disposition and design of support to place element around the robot. This initiative involved the production of :
+I design a first [support plate](https://github.com/Toys-R-Us-Rex/Duckify/commit/fecb2f54f8cad5a4a98d4de9e4413720ea7972cb) that has the objective to stick all the pieces together like a puzzle.
 
-- A [metal plate](https://github.com/Toys-R-Us-Rex/Duckify/commit/60afaa97607ae36a96b1a6e3f52b57007e52b891) that represent the large plate under the robot
-- A [support plate](https://github.com/Toys-R-Us-Rex/Duckify/commit/fecb2f54f8cad5a4a98d4de9e4413720ea7972cb) that was design around the idea that the piece will fit hole in the support like puzzle pieces
+I design a new version of [wood suport in two pieces]([new design of wood supports](https://github.com/Toys-R-Us-Rex/Duckify/commit/1009e153e927d299d40bac70b55392cf1c785faa))
 
-After discussion with expert, I change the approach of interlocking support. The system that will maintain the pieces together will be pins that are commanded directly to an expert.
+After discussion with the team : the design of wooden support with part that can assemble is not a must-have so I design the actual version of [wooden support](https://github.com/Toys-R-Us-Rex/Duckify/commit/2744d063d57a45c51c4c008668a7f58b87bfd6de) which is the first version which was cut that was sent to an expert (This kind of discussion will be shown in another part)
 
-And so I redesign the supports that have the purpose of being in wood (involving laser cutting) and also being 2 different piece, one that will contain the duck support and the other all the pen supports.
-
-- [The redesign of wooden support](https://github.com/Toys-R-Us-Rex/Duckify/commit/1009e153e927d299d40bac70b55392cf1c785faa) : As I said, two pieces designed to be fit together with pins' holes.
-
-The question of positionning the support relatively to themself and the robot was a subject of discussion with the robot team and the conclusion was that fixed position was not an important point as calibrating the robot to give the relative position of the pieces was enough. This conclusion implies that I design another version of the wooden support, more basic. They are the [first wooden support cut](https://github.com/Toys-R-Us-Rex/Duckify/commit/2744d063d57a45c51c4c008668a7f58b87bfd6de) that was sent to an expert (This kind of discussion will be shown in another part)
-
-In the other hand, I printed the final version of [a support to elevate the duck](https://github.com/Toys-R-Us-Rex/Duckify/commit/87fb7a223b44f528bbda29b1b75b226d3845930e) so the robot could have more space and angle to paint the duck. A specific element that can be seen in the picture of the commit is some specific point that are waypoints used for calibration by the robot team.
-
-During our tests we discover that the pen support I printed had some friction issue with the pen and sometimes the support move with the pen. I tried two differents fixed : the first was to reduce the surface of contact with the pen but it happened that it was not a good idea because by removing this surface we remove the rigidity of the support and it can more block the pen. The second was to remove the slope and to only use horizontal and vertical shape. Every document relative to this issue are in this PR : [Fix of friction](https://github.com/Toys-R-Us-Rex/Duckify/pull/75)
+I printed the final version of [a support to elevate the duck](https://github.com/Toys-R-Us-Rex/Duckify/commit/87fb7a223b44f528bbda29b1b75b226d3845930e) so the robot could have more space and angle to paint the duck. A specific element that can be seen in the picture of the commit is some specific point that are waypoints used for calibration by the robot team.
 
 ## Implémenter une approche théorique modélisée
 
@@ -64,17 +59,21 @@ My first task as a new member of the robot team is to implement a program to hav
 
 ## Evaluer un système informatique
 
-## Valoriser des ensembles de données hétérogènes et multimodales
+I tested the pen transition pipeline program I provided during a laboratory session and added in [the laboratory report its success]("documents/robot_labo_report.pdf")
 
-Considering I deal with specific files format I decided to structre my commit and my production in a specific way that you can find in the [25th pull request](https://github.com/Toys-R-Us-Rex/Duckify/pull/25)
+I took time for the team GenAI to generate new types of duck texture with a new type of prompt content : I wrote [a report](https://github.com/Toys-R-Us-Rex/Duckify/pull/104) resuming my conclusion,
+
+## Valoriser des ensembles de données hétérogènes et multimodales
 
 Concerning the duck support, the robot team asked me to provide specific files concerning the disposition of the waypoint on the duck. So I give them [a plan of the piece and a small json files](https://github.com/Toys-R-Us-Rex/Duckify/commit/bbf75ee5c383c9d5a7572445edfacafa14d3a301)
 
-A problem appeared for the tracing team and robot team concerning the axis and orientation of model I give. I haven't personnaly taken care of this point because I couldn't imagine the orientaion of the design I did could have any importance. I was wrong and after discussions with the concerned group I provide [oriented pieces](https://github.com/Toys-R-Us-Rex/Duckify/commit/02be7384ea0f5d1c3b25ee3d7182638ddd4411b0) with the choosen orientation for the duck and the [duck support](https://github.com/Toys-R-Us-Rex/Duckify/commit/60b868903d585489b0eca09b0ea36b5205b98de7)
-
 ## Orchestrer un processus et une infrastructure de traitement de données
 
+Considering I deal with specific files format I decided to structre my commit and my production in a specific way that you can find in the [25th pull request](https://github.com/Toys-R-Us-Rex/Duckify/pull/25)
+
 ## Appliquer les compétences de l’ingénierie en informatique au domaine des données
+
+I modify the code of the [pen transition programm to make it more adaptable to the pipeline](https://github.com/Toys-R-Us-Rex/ur3e-control/commit/852d50a1af87d1c2265d3a06e9b03f1dd0d77d01). This code was then improved by Mr. Antonietti.
 
 ## Communiquer clairement et efficacement
 
@@ -96,4 +95,72 @@ Concerning the 3D design I booked an appointment with Mrs. Richard to talk about
 
 ## Argumenter ses opinions et ses choix lors de processus décisionnels et stratégiques
 
+I produce [assembly examples](https://github.com/Toys-R-Us-Rex/Duckify/pull/111) as illustration for my teammate to discuss element position and to show how we can use the different design of wood support I produced
+
 ## Critiquer le déroulement d’une production de manière auto-réflexive
+
+# Questions
+
+We were asked to provide questions concerning each week and so you can find in the following line theses questions
+
+## Week 1
+
+Q1
+> Do you consider your role in the team can be considered as an "engineer" role ?
+> I do, employer can need many various skills in their company.
+
+Q2
+> Depsite being a relatively "solo" role. How will you manage to be usefull for the team ?
+> I can imagine that I will need to produce some specific tasks at specific moment depending on the needs of my mates.
+
+Q3
+> What do you find challenging in your role ?
+> The most difficult aspect of my job will be to have precise result from relatively vague needs and measurements. I must adapt to the situation of the robot team and take care of their needs.
+
+## Week 2
+
+Q1
+> Was it easy to adapt to your teammate demands ?
+> Not really, in one side their needs were not precise and in the other part, I appreciate precision in tasks, having define objectives.
+
+Q2
+> Is the lack of precision in the objectives disturbing ?
+> In my position, I have the capacity and the time to explore many solution. It lets me adapt to the result we observe.
+
+Q3
+> How do you deal with the tasks you planned to do and the asks of your team ? Do you have time to deal with both ?
+> Of course it depends on the needs but I manage to complete the most of the tasks (except some validation point) even when my team asked me specific productions that weren't planned.
+
+## Week 3
+
+Q1
+>
+>
+
+Q2
+>
+>
+
+Q3
+>
+>
+
+## Week 4
+
+
+
+## Week 5
+
+
+
+## Week 6
+
+Q1
+> Are you satisfied of your result concerning the prompt engineering session ?
+> Yes. In fact, I don't think I discover nothing specially new but wrong result doesn't mean theses result are bad. I can learn from inconclusive result
+Q2
+> Do you consider that LLM must not be used during a project ?
+> I wouldn't say it must not be used instead be used in an appropriate way. In my case, I used a LLM specialized in React website to generate a empty website with its template and almost all stylistic element because this kind of task is not a key element to our project.
+Q3
+>
+>
