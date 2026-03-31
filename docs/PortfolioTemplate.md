@@ -39,7 +39,7 @@ To color our duck we needed tools to paint it. I went for the first time to a sp
 
 During test on the robot, we see that the first pen model we use has a tendency to flow on the duck and to make too big traces. I went to a shop (Duplirex) to gather pen that have thiner tip and should avoid flowing [New pens](assets/pens2.jpg)
 
-For our promotion website, we would like to add video or picture into it to show our work. I manage to find a camera and a tripod [Camera](assets/camera.jpg) [tripod](assets/tripod.jpg) from a friend outside the HES
+For our promotion website, we would like to add video or picture into it to show our work. I manage to find a camera and a tripod [Camera](assets/camera.jpg) and [tripod](assets/tripod.jpg) from a friend outside the HES.
 
 ## Concevoir une solution théorique modélisée
 
