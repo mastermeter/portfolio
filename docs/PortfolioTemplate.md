@@ -23,13 +23,13 @@ For each point, Additionnal content will be add during the project concerning my
 
 ## Analyser un problème informatique complexe
 
-After discussion with an expert (Ms Richard) I provide a [new design of wood supports](https://github.com/Toys-R-Us-Rex/Duckify/commit/1009e153e927d299d40bac70b55392cf1c785faa) because the precision required for 3d printed element to fit with other pieces can't be really determined in advance because of the potential printing error that could occur. Theses new wood support doesn't have hole for pieces but have hole for pins that will make the link between wood support and printed support.
+After discussion with an expert (Ms Richard) I provide a [new design of wood supports](https://github.com/Toys-R-Us-Rex/Duckify/commit/1009e153e927d299d40bac70b55392cf1c785faa).
 
 Because of the capacity of the wood-cutting laser machine to provide limited size, the [new design of wood support](https://github.com/Toys-R-Us-Rex/Duckify/commit/1009e153e927d299d40bac70b55392cf1c785faa)
 
-During our tests we discover that the pen support I printed had some friction issue with the pen and sometimes the support move with the pen. I tried two differents fixed : the first was to reduce the surface of contact with the pen but it happened that it was not a good idea because by removing this surface we remove the rigidity of the support and it can more block the pen. The second was to remove the slope and to only use horizontal and vertical shape. Every document relative to this issue are in this PR : [Fix of friction](https://github.com/Toys-R-Us-Rex/Duckify/pull/75)
+During our tests we discover friction issue and my fixes are noted in this PR : [Fix of friction](https://github.com/Toys-R-Us-Rex/Duckify/pull/75)
 
-A problem appeared for the tracing team and robot team concerning the axis and orientation of model I give. I haven't personnaly taken care of this point because I couldn't imagine the orientaion of the design I did could have any importance. I was wrong and after discussions with the concerned group I provide [oriented pieces](https://github.com/Toys-R-Us-Rex/Duckify/commit/02be7384ea0f5d1c3b25ee3d7182638ddd4411b0) with the choosen orientation for the duck and the [duck support](https://github.com/Toys-R-Us-Rex/Duckify/commit/60b868903d585489b0eca09b0ea36b5205b98de7)
+A problem appeared for the tracing team and robot team concerning the axis and orientation of model I give. I haven't personnaly taken care of this point because I couldn't imagine the orientaion of the design I did could have any importance. I was wrong and after discussions with the concerned group I provide oriented pieces with the choosen orientation for the [duck](https://github.com/Toys-R-Us-Rex/Duckify/commit/02be7384ea0f5d1c3b25ee3d7182638ddd4411b0) and the [duck support](https://github.com/Toys-R-Us-Rex/Duckify/commit/60b868903d585489b0eca09b0ea36b5205b98de7)
 
 During test with the robot, we observe the difficutly for the gripper to take the pen the deepest it can. To fix that we added in our pen support spring that I had to get from shop (Hornbach) [Springs](assets/spring.jpg)
 
@@ -49,9 +49,9 @@ My first productions that can be found here [Support Sketch](https://github.com/
 - To show to the team how I would imagine a duck support in the concept.
 - Create some complexe shape in the sence they require some deeper knowledge to design them.
 
-I design a first version of pen support  [Pen-related model](https://github.com/Toys-R-Us-Rex/Duckify/commit/343e6cbbd831bb5ca98af4b043ff2c8a33d482d6)
+I provide for the robot team 2 pieces that replace real pen for early test [Pen-related model](https://github.com/Toys-R-Us-Rex/Duckify/commit/7aee82fd02d751a778e9e48157983562d8bab257)
 
-I produce for the robot team [a test slope](https://github.com/Toys-R-Us-Rex/Duckify/commit/99d94a4e07718d70484d219bf683ba410575c68d) to provide a shape that is not a plate but not rounded to give a medium difficulty challenge.
+I produce for the robot team [a test slope](https://github.com/Toys-R-Us-Rex/Duckify/commit/99d94a4e07718d70484d219bf683ba410575c68d) to provide a medium difficulty challenge.
 
 I design a  [metal plate](https://github.com/Toys-R-Us-Rex/Duckify/commit/60afaa97607ae36a96b1a6e3f52b57007e52b891) that represent the large plate under the robot for presentation purpose and to help my teammate to visualize easily how my pieces assemble together
 
