@@ -33,7 +33,7 @@ A problem appeared for the tracing team and robot team concerning the axis and o
 
 During test with the robot, we observe the difficutly for the gripper to take the pen the deepest it can. To fix that we added in our pen support spring that I had to get from shop (Hornbach) [Springs](assets/spring.jpg)
 
-I sent a mail to PR. Darbellay to take some information about thw option to have wooden pieces as base support [Mail about wooden pieces](assets/mail_wood_piece_information.png)
+I sent a mail to PR. Darbellay to take some information about the option to have wooden pieces as base support [Mail about wooden pieces](assets/mail_wood_piece_information.png)
 
 To color our duck we needed tools to paint it. I went for the first time to a specialized shop (Duplirex) to get pen that could be use [Firsts pens](assets/pen1.jpg) with Mr. Antonietti
 
