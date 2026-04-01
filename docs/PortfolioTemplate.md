@@ -195,9 +195,11 @@ Q3
 Q1
 > Are you satisfied of your result concerning the prompt engineering session ?
 > Yes. In fact, I don't think I discover anything specially new but wrong result doesn't mean theses results are bad. I can learn from inconclusive result.
+
 Q2
 > Do you consider that LLM must not be used during a project ?
 > I wouldn't say it must not be used instead be used in an appropriate way. In my case, I used a LLM specialized in React website to generate a empty website with its template and almost all stylistic element because this kind of task is not a key element to our project.
+
 Q3
 > Globally, how do you percieve your dedication in this project ?
 > I consider I did what I must do and my mates seem to appreciate the work I have done. I've never recieve negative feeback from my mate so I consider that I made a great work
